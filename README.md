@@ -24,28 +24,6 @@ This project implements three distinct meta-learning algorithms:
 *   **Efficient Pipeline:** Optimized for GPU acceleration with parallel data loading.
 *   **Reproducible:** All experiments are reproducible through a `config.yaml` file.
 
-## Project Structure
-Use code with caution.
-Markdown
-.
-├── config.yaml # Central configuration file
-├── data # Dataset storage
-│ └── omniglot # Omniglot dataset
-├── models # Meta-learning model implementations
-│ ├── maml.py # MAML model implementation
-│ ├── protonet.py # Prototypical Network implementation
-│ └── reptile.py # Reptile implementation
-├── utils # Utility functions and modules
-│ ├── data_loader.py # Data loading and preprocessing
-│ ├── training_utils.py # Training helpers, loss calculations, visualisation
-│ └── ...
-├── train.py # Training script
-├── evaluate.py # Evaluation script
-├── test.py # Testing script
-├── demo.py # Streamlit demo
-├── omniglot_download.py # Downloader script for the omniglot dataset
-└── README.md # This file
-
 ## Getting Started
 
 ### Prerequisites
